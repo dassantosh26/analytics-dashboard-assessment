@@ -2,7 +2,7 @@
 
 ### Deployment
 - Deployed at vercel .
-- Live Link () .
+- Live Link (https://analytics-dashboard-assessment-ten.vercel.app/) .
 
 
 ## Overview
