@@ -27,7 +27,7 @@ const AppProvider = ({ children }) => {
 
   //fetching data from csv file
   useEffect(() => {
-    fetch("src/assets/Electric_Vehicle_Population_Data.csv")
+    fetch("Electric_Vehicle_Population_Data.csv")
       .then((res) => res.text())
       .then((text) => {
         Papa.parse(text, {
@@ -43,7 +43,7 @@ const AppProvider = ({ children }) => {
   }, []);
   const fetchInitialData = () => {
     setLoading(true);
-    fetch("src/assets/Electric_Vehicle_Population_Data.csv")
+    fetch("Electric_Vehicle_Population_Data.csv")
       .then((res) => res.text())
       .then((text) => {
         Papa.parse(text, {
